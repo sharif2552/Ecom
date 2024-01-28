@@ -119,7 +119,7 @@ body {
   width: auto;
   border: 1px solid #ffffff;
 
-  padding: 5px;
+ 
 }
 
 .itemBody11 {
@@ -252,4 +252,81 @@ body {
   margin-left: 300px;
   font-size: 10px;
   font-weight: 50;
+}
+.itemBody4 img {
+  height: 300px;
+  padding-left: 40px;
+  text-align: center;
+}
+
+.itemBody4 h2 {
+  font-size: 10px;
+  font-weight: 50;
+  text-align: start;
+  margin-top: 10px;
+
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  
+  margin: 0px;
+  font-weight: 200;
+}
+
+.item h2 {
+  font-size: 13px;
+  margin-left: 0px;
+  font-weight: 200;
+}
+
+.itemBody4 {
+  border: 1px solid #ffffff;
+  height: 600px;
+  width: 50%;
+}
+
+.sizes2{
+  
+    font-size: 10px;
+    font-weight: 50;
+    margin-left: 270px;
+}
+.Sizes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 80px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 10px;
+
+    width: auto;
+}
+
+.purchase{
+    margin-right: 20%;
+    margin-left: 20%;
+   text-align: center;
+   border: 1px solid #ffffff;
+   font-size: 30px;
+
+}
+.purchasePrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20%;
+    margin-top: 20px;
 }
