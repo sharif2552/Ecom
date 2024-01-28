@@ -295,12 +295,14 @@ body {
   
     font-size: 10px;
     font-weight: 50;
-    margin-left: 270px;
+    margin-left: 75%;
+ 
 }
 .Sizes{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-right: 5%;
 }
 .description{
     display: flex;
