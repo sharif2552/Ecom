@@ -1,0 +1,255 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#header {
+  height: auto;
+  width: 100%;
+  border: 1px solid #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.headerDate {
+  align-items: center;
+  margin-top: 10px;
+}
+.headerDate h2 {
+  margin-top: 10px;
+  font-size: 16px;
+  margin-left: 15px;
+}
+.row2 h2 {
+  font-size: 12px;
+}
+.row2 {
+  margin: 0px;
+  height: 20px;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: start;
+}
+
+#today {
+  font-size: 2px;
+  color: red;
+  height: 5px;
+  width: auto;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.image1 {
+  height: 25px;
+}
+.image2 {
+  height: 20px;
+}
+.logo img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.longtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-size: 10px;
+  width: auto;
+}
+
+.itemBody {
+  display: flex;
+  margin-top: 0px;
+}
+
+.itemBody1 {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 10px;
+  height: 600px;
+  width: auto;
+  border: 1px solid #ffffff;
+}
+
+.itemBody1 {
+  display: flex;
+  flex-direction: column;
+
+  height: 700;
+
+  border: 1px solid #ffffff;
+
+  width: 24%;
+  margin: 0px;
+}
+
+.itemBody2 {
+  margin-left: -270px;
+  margin-top: 15 0px;
+  font-size: 10px;
+  height: 50px;
+  width: 600px;
+
+  padding: 5px;
+}
+
+.itemBody3 {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: -300px;
+  margin-top: 0.1px;
+  margin-bottom: 10px;
+  height: 600px;
+  width: auto;
+  border: 1px solid #ffffff;
+
+  padding: 5px;
+}
+
+.itemBody11 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  padding-left: 10px;
+  height: 23%;
+
+  margin: 0px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.itemBody11 h2 {
+  font-size: 25px;
+}
+
+.itemBody11 img {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10%;
+  padding-top: 15%;
+}
+
+.itemBody12 {
+  display: flex;
+  justify-content: start;
+  font-size: 15px;
+  height: 5%;
+
+  border-bottom: 1px solid #ffffff;
+  align-items: center;
+  padding-left: 5px;
+  font-weight: 500;
+}
+
+.itemBody13 {
+  display: flex;
+  font-size: 15px;
+  height: 7%;
+  border-bottom: 1px solid #ffffff;
+  align-items: center;
+  padding-left: 5px;
+  font-weight: 500;
+}
+
+.itemBody14 {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  height: 40%;
+
+  padding-left: 5px;
+  font-weight: 500;
+}
+
+.itemBody14 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 40px;
+  padding-left: 40%;
+}
+.itemBody14 h2 {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+#first {
+  padding-left: 5px;
+}
+#second {
+  padding-left: 40px;
+}
+#third {
+  padding-left: 55px;
+}
+#fourth {
+  display: flex;
+  justify-content: end;
+}
+
+.itemBody2 {
+  transform: rotate(-90deg);
+}
+
+.itembody3A img {
+  height: 200px;
+  width: auto;
+  padding: 80px;
+  padding-top: 0px;
+}
+
+.itembody3A h2 {
+  font-size: 10px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: -50px;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 10px;
+}
+.itemBody3B {
+  display: flex;
+  flex-direction: row;
+}
+
+.itembody3B img {
+  height: 250px;
+  width: auto;
+  margin-top: -30px;
+  padding-left: 10px;
+}
+
+.itembody3B h1 {
+  font-size: 10px;
+  font-weight: 50;
+  text-align: start;
+  margin-top: 10px;
+  margin-left: 220px;
+}
+.sizes {
+  margin-left: 300px;
+  font-size: 10px;
+  font-weight: 50;
+}
