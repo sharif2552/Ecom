@@ -19,12 +19,11 @@ body {
 }
 .headerDate h2 {
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 2vw;
   margin-left: 15px;
 }
-.row2 h2 {
-  font-size: 12px;
-}
+
+
 .row2 {
   margin: 0px;
   height: 20px;
@@ -39,11 +38,9 @@ body {
   justify-content: start;
 }
 
-#today {
-  font-size: 2px;
-  color: red;
-  height: 5px;
-  width: auto;
+.today {
+  font-size: 1vw;
+  width: 40%;
   margin-left: 4px;
   margin-right: 4px;
 }
@@ -54,11 +51,9 @@ body {
   height: 20px;
 }
 .logo img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 70px;
-  margin-right: 15px;
+  height: auto;
+  width: 50%;
+  margin-left: 45%;
   margin-top: 10px;
 }
 .longtext {
@@ -74,7 +69,7 @@ body {
 .itemBody {
   display: flex;
   flex-direction: row;
- 
+
   margin-top: 0px;
 }
 
@@ -100,8 +95,6 @@ body {
   margin: 0px;
 }
 
-
-
 .itemBody3 {
   display: flex;
   flex-direction: column;
@@ -112,8 +105,6 @@ body {
   height: 600px;
   width: 38%;
   border: 1px solid #ffffff;
-
- 
 }
 
 .itemBody11 {
@@ -167,26 +158,22 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 15px;
-  height: 40%;
 
   padding-left: 5px;
   font-weight: 500;
 }
 
 .itemBody14 img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-  width: 40px;
+  height: auto;
+  width: 30%;
   padding-left: 40%;
 }
 .itemBody14 h2 {
-  font-size: 15px;
+  font-size: 1.9vw;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 2%;
   font-weight: 600;
 }
 
@@ -194,7 +181,7 @@ body {
   padding-left: 5px;
 }
 #second {
-  padding-left: 40px;
+  padding-left: 30%;
 }
 #third {
   padding-left: 55px;
@@ -203,33 +190,77 @@ body {
   display: flex;
   justify-content: end;
 }
-
+.directory {
+  margin-top: 15%;
+}
 .itemBody2 {
   transform: rotate(-90deg);
-margin-right: -5%;
-  margin-top: 20%;
-
-
-
+  font-size: 1vw;
+  height: 8vw;
+  width: 12vw;
+  margin-top: 250px;
 }
-
-
-
-
-
-
-
 
 .itemBody4 {
   border: 1px solid #ffffff;
   height: 600px;
   width: 80%;
-    
+  margin-left: -7%;
 }
-.itemBody4 img{
-    height: 100%;
-    width: 100%;
+.itemBody4 img {
+  height: 100%;
+  width: 100%;
 }
 
+.div1 img {
+  height: auto;
+  width: 10%;
+  margin-left: 3%;
+}
+.div2 {
+  font-size: 1.5vw;
+  margin-left: 15%;
+}
+.div3 img {
+  height: auto;
+  width: 10%;
+  margin-left: 22%;
+}
+.div4 {
+  font-size: 1.5vw;
+  margin-left: 32%;
+}
 
+.div5 img {
+  height: auto;
+  width: 10%;
+  margin-left: 38%;
+}
+.div6 {
+  font-size: 1.5vw;
+  margin-left: 48%;
+}
+.div7 img {
+  height: auto;
+  width: 10%;
+  margin-left: 77%;
+}
+.div8 {
+  font-size: 1.5vw;
+  margin-left: 30%;
+}
+.div8 span {
+  font-size: 1vw;
+  margin-left: 10%;
+}
 
+.div9 img {
+  height: auto;
+  width: 10%;
+  margin-left: 50%;
+}
+
+.div10 {
+  font-size: 1.5vw;
+  margin-left: 30%;
+}
