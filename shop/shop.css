@@ -346,6 +346,7 @@ padding-left: 40%;
 
 .itemBody5{
   display: none;
+  z-index: 6;
 }
 
 @media (min-width:320px) and (max-width: 800px) {
@@ -357,6 +358,9 @@ padding-left: 40%;
   display: none;
 
  
+}
+.itemBody5{
+  display: flex;
 }
 .itemBody2{
   display: none;
@@ -381,6 +385,7 @@ padding-left: 40%;
   font-weight: 50;
   text-align: start;
   margin-top: 20%;
+  z-index: 0;
 
   margin-left: 41%;
 }
@@ -396,7 +401,6 @@ padding-left: 40%;
   height: auto;
 
 }
-
 
 
 body,
@@ -419,6 +423,7 @@ main {
   top: 0;
   bottom: 0;
   position: absolute;
+  z-index: 2;
 }
 
 .aside-left {
@@ -620,11 +625,11 @@ p {
     width: 60%;
   }
 }
+}
 .headerDate{
   margin-left: 15%;
 }
 .row2{
   margin-left: -23%;
 
-}
 }
